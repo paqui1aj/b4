@@ -1,0 +1,257 @@
+<app-header></app-header>
+<div class="cover-banner">
+    <div class="banner-slider">
+        <div>
+            <div class="slide-section">
+                <div class="container">
+                    <div class="flex">
+                        <div class="banner-layer">
+                            <div class="text-box">
+                                <span> Your RE/MAX Metro agent is here. </span>
+                                <h4>And they will guide you every step of the way</h4>
+                            </div>
+                        </div>
+                        <div class="banner-img">
+                            <img src="assets/app/images/banner-img.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="slide-section">
+                <div class="container">
+                    <div class="flex">
+                        <div class="banner-layer">
+                            <div class="text-box">
+                                <span> Welcome to transparent bidding. </span>
+                                <h4>Register today to get pre-qualified</h4>
+                            </div>
+                        </div>
+                        <div class="banner-img">
+                            <img src="assets/app/images/banner-img2.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="slide-section">
+                <div class="container">
+                    <div class="flex">
+                        <div class="banner-layer">
+                            <div class="text-box">
+                                <span> Together under one roof </span>
+                                <h4>Bringing buyers and sellers together on one platform at last</h4>
+                            </div>
+                        </div>
+                        <div class="banner-img">
+                            <img src="assets/app/images/banner-img3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-navs">
+        <div class="container">
+            <div class="flex space-between items-align-center">
+                <div class="nav">
+                    <ul>
+                        <li><img src="assets/app/images/grid-primary.png">See All Bids</li>
+                        <li><i class="fa fa-search" aria-hidden="true"></i>Search MLS</li>
+                        <li class="arrows">
+                            <ul>
+                                <li></li>
+                                <li>
+                                    <p>01</p>/<p>05</p>
+                                </li>
+                                <li></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-nav">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<main>
+    <div class="offer-section section">
+        <div class="container-sm">
+            <h2>It’s never been easier.</h2>
+            <h4>Let us help you instantly compare offers on your home.</h4>
+            <ul class="form-nav">
+                <li class="active">
+                    <a href="#">I HAVE AN OFFER</a>
+                </li>
+                <li>
+                    <a href="#">I would like an offer</a>
+                </li>
+            </ul>
+            <div class="form-section animate-form">
+                <div class="form-box">
+                    <form>
+                        <div class="flex space-between">
+                            <div class="form-group">
+                                <label>My Name is </label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>YOUR EMAIL ADDRESS</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>My home is located in </label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>My home value is</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-btn">
+                                <button type="button" class="btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="group-section">
+        <div class="colmn-group">
+            <div class="flex">
+                <div class="colmn-text">
+                    <h2>A different<br> approach to buying…</h2>
+                    <span class="border-line"></span>
+                    <p>Discover our cutting-edge buying process. Our RE/MAX Metro experts are here to guide you
+                        every step of the way.</p>
+                    <p> BEYOND4 is the future of home buying. Are you ready to be one of the first to experience
+                        it?</p>
+                    <a href="#" class="btn">Try it out</a>
+                </div>
+                <div class="colmn-img">
+                    <figure>
+                        <img src="assets/app/images/colmn-img-1.jpg">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="colmn-group">
+            <div class="flex">
+                <div class="colmn-text">
+                    <h2>A different<br> approach to buying…</h2>
+                    <span class="border-line"></span>
+                    <p>Discover our cutting-edge buying process. Our RE/MAX Metro experts are here to guide you
+                        every step of the way.</p>
+                    <p> BEYOND4 is the future of home buying. Are you ready to be one of the first to experience
+                        it?</p>
+                    <a href="#" class="btn">Try it out</a>
+                </div>
+                <div class="colmn-img">
+                    <figure>
+                        <img src="assets/app/images/colmn-img-1.jpg">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bid-slider-section">
+        <div class="heading-box text-center">
+            <div class="container">
+                <h2>See it. Love it. Bid it.</h2>
+                <p>Beyond4 allows you to breathe knowing you got the best price. The RE/MAX Metro team helps
+                    every step of the way, making sure there are no surprises, only happy memories. </p>
+            </div>
+        </div>
+        <div class="bid-slider">
+            <div *ngFor="let property of properties">
+                <div class="slide-box">
+                    <div class="flex space-between items-align-center slide-head">
+                        <h4>{{property?.tagline}}</h4>
+                        <span>{{property?.listed_amount | currency:'USD':'symbol-narrow':'4.0-0'}}</span>
+                    </div>
+                    <figure>
+                        <img src="{{property?.featured_photo.path}}">
+                    </figure>
+                    <div class="flex space-between items-align-center slide-detail">
+                        <ul>
+                            <li>{{property?.address1}} </li>
+                            <li> Beds: {{property?.num_bedrooms}} Baths: {{property?.num_bathrooms}} </li>
+                            <li> sq: {{property?.ft_sq}} </li>
+                        </ul>
+                        <a href="javascript:void(0)">View Listing</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="btn-box">
+            <a href="#" class="btn"> View All </a>
+        </div>
+    </div>
+    <div class="group-section">
+        <div class="colmn-group">
+            <div class="flex">
+                <div class="colmn-text">
+                    <h2>A different<br> approach to buying…</h2>
+                    <span class="border-line"></span>
+                    <p>Discover our cutting-edge buying process. Our RE/MAX Metro experts are here to guide you
+                        every step of the way.</p>
+                    <p> BEYOND4 is the future of home buying. Are you ready to be one of the first to experience
+                        it?</p>
+                    <a href="#" class="btn">Try it out</a>
+                </div>
+                <div class="colmn-img">
+                    <figure>
+                        <img src="assets/app/images/colmn-img-1.jpg">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="colmn-group">
+            <div class="flex">
+                <div class="colmn-text">
+                    <h2>A different<br> approach to buying…</h2>
+                    <span class="border-line"></span>
+                    <p>Discover our cutting-edge buying process. Our RE/MAX Metro experts are here to guide you
+                        every step of the way.</p>
+                    <p> BEYOND4 is the future of home buying. Are you ready to be one of the first to experience
+                        it?</p>
+                    <a href="#" class="btn">Try it out</a>
+                </div>
+                <div class="colmn-img">
+                    <figure>
+                        <img src="assets/app/images/colmn-img-1.jpg">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="powered-section">
+        <div class="container-sm">
+            <h2>Powered By</h2>
+            <div class="flex space-between">
+                <figure>
+                    <img src="assets/app/images/motto-mortgage.png">
+                </figure>
+                <figure>
+                    <img src="assets/app/images/remax.png">
+                </figure>
+                <figure>
+                    <img src="assets/app/images/tiof_logo.png">
+                </figure>
+            </div>
+            <div class="btn-box">
+                <a href="#" class="btn"> Become a BETA tester</a>
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>
